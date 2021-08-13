@@ -1,0 +1,217 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+	margin: 10px;
+}
+.flow{
+	width:100%;
+	height: 100%;
+	margin: auto;
+	background: rgb(0,0,0,0.5);
+	
+}
+/*  Header  */
+header{
+	width: 100%;
+	height:95vh;
+	background-image: url("../images/maison.jpg");
+ 	background-size:cover;
+ 	position: relative;
+}
+header .header{
+	width: 90%;
+	height:auto;
+	position: absolute;
+	top:1%;left:5%;
+	padding:10px;
+	z-index: 1000;
+}
+header .header #logo{
+	width: 19%;
+	height:100%;
+	display: inline-block;
+    text-align: center;
+}
+header .header #logo h2 a{
+	letter-spacing: 1.5px;
+	font-size:1.6em;
+	color: #ddd;
+	font-family: cursive ,"Arial";
+	transition:1s;
+	text-decoration:none;
+}
+header .header #logo:hover h2 a,header .header ul li:hover a{
+	letter-spacing: 2.5px;
+	color: #E1AECD;
+	text-decoration: underline;
+}
+header .header ul{
+  list-style: none;
+  width:55%;
+  float: right;
+}
+header .header ul li{
+	width:15.8%;
+	padding:1.5%;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+
+}
+header .header ul li a{
+	color: #E4E4DE;
+	font-size: 1.3em;
+	text-decoration: none;
+	transition: 1s;
+}
+header .body{
+	width: 90%;
+	height: auto;
+    left: 4%;
+	position:absolute;top:35%;
+	z-index: 999;
+}
+header .body h1{
+	font-size: 4em;
+	letter-spacing:2px;
+	text-align: center;
+	font-weight:bold;
+	font-style: italic;
+	font-family: sans-serif;
+	color: #E4E4DE;
+	width: 40%;
+	height: auto;
+	padding:1%;
+	display: inline-block;
+}
+header .body p{
+	font-size:2em;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #e4e4de;
+	width: 45%;
+	padding-top:1%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+header .header.two{
+	background: rgb(0,0,0,0.5);
+	display: none;
+	width: 100%;
+	height:40px;
+	position: fixed;
+	top: 0;left: 0;
+	z-index: 1001;
+	padding-bottom:1.2%;
+}
+/*about*/
+.about{
+	width: 95%;
+	height:70vh;
+	margin: auto;
+	background: #ddd;
+	padding: 50px 0 50px 0;
+}
+.about .creative,
+.about .awesome,
+.about .office{
+	width: 30%;
+	float: left;
+	margin-left: 2.5%;
+}
+.about .awesome img,
+.about .office img{
+	width: 100%;
+}
+.about .awesome h3,
+.about .office h3{
+	font-size:1.5em;
+	color: #555;
+	text-align: center;
+	padding: 2%;	
+}
+.about .awesome p,
+.about .office p{
+	font-size:17px;
+	letter-spacing: 1px;
+	color: #222;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.about .creative h2{
+	color: #2a2a1e;
+	font-size: 2.3em;
+	margin-bottom: 3%;
+	margin-top: 10%;
+	font-weight: bold;
+}
+.about .creative p{
+	color: #6b6a4c;
+	font-size: 1.3em;
+	line-height: 1.3;
+}
+.about .creative p span{
+	font-weight: bold;
+}
+.about .creative p a{
+	color: #2a2a1e;
+	text-decoration: none;
+	font-size:19px; 
+}
+.about .creative p a:hover{
+	color: #888;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+/*Folio*/
+.folio{
+	width: 100%;
+	height:84vh;
+	background-image: url("../images/production.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+}
+.container{
+	width:90%;
+	height: 100%;
+	margin: auto;
+	background: rgb(0,0,0,0.3);
+}
+.folio .container h1{
+	text-align: center;
+	padding:9%;
+	color: #ddd;
+	font-size: 3em;
+	letter-spacing: 1.5px;
+	font-family: sans-serif;
+}
+.folio .container p{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-weight: bold;
+	font-size: 22px;
+	color: #ddd;
+	line-height: 1.5;
+}
+.folio .container p a{
+   color: #e4e4de;
+   font-size:1.1em;
+   text-decoration: none;
+   transition: 1.4s;
+   border: 2px solid #ddd;
+   display:inline-block;
+   padding:5px 10px;
+   margin-left: 8px;
+}
+.folio .container p a:hover{
+	background:#E1AECD;
+	color: #222;
+	text-decoration: underline;
+	border: 2px solid #222;
+}
